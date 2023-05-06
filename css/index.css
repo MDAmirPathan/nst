@@ -1,0 +1,5 @@
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../images/bpo-banner.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
