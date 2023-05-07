@@ -5,15 +5,16 @@
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
 }
 
 .section-left {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
+    
 }
 
 .paras {
-    padding: 0px 65px;
+    padding: 0px 65px 0px 0px;
 }
 
 .thumbnail img {
@@ -21,4 +22,8 @@
     border: 2px solid black;
     border-radius: 26px;
     margin-top: 19px;
+}
+
+.aboutz{
+    align-items: center;
 }
