@@ -11,7 +11,8 @@
     }
 
     .logo {
-        margin-right: 0;
+        margin-right: 0%;
+        width: 23%;
     }
 
     .logo img {
@@ -19,13 +20,12 @@
     }
 
     .background {
-        width: 99%;
-        height: auto;
-        min-height: 30vh;
-        height: auto !important;
+        /* background: url(../images/smallcreative1.jpg); */
+        align-self: center;
+        width: 100%;
         /* for IE as it does not support min-height */
-        height: 60vh;
-        margin: 0 20% 0 0;
+        /* height: 60vh; */
+        /* margin: 0 20% 0 0; */
     }
 
     .box-main {
@@ -64,4 +64,18 @@
     .paras {
         padding: 0px;
     }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .all-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-right: 0%;
+        width: 45%;
+    }
+
 }
