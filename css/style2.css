@@ -1,0 +1,125 @@
+@font-face {
+    font-family: myFont;
+    src: url(Secular_One/SecularOne-Regular.ttf);
+ }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.firstSection {
+    height: 60vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+    padding: 3%;
+}
+
+
+.head2 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2.5%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 100%;
+    border: 2px solid white;
+    /* border-radius: 150px; */
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 30px;
+
+}
+
+.text-small {
+    font-size: 15px;
+
+}
+
+/* .btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white ;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+} */
+
+/* .btn-sm{
+   
+} */
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.secLeft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+ .row{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    z-index: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* .card{
+    width: 300px;
+    position: relative;
+    background-color: green;
+}  */
